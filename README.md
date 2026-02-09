@@ -24,28 +24,26 @@ This project does NOT use physical sensors. Instead, it simulates realistic real
 
 ## Project Structure
 
-iot-realtime-weather-sensor-simulation-influxdb/
-│
-├── data/
-│   └── sample_export.csv
-│
-├── requirements/
-│   └── requirements.txt
-│
-├── screenshots/
-│   ├── CSV.png
-│   ├── dashboard.png
-│   └── Database.png
-│
-├── src/
-│   ├── onemeteo_to_influx.py
-│   ├── realtime_sensor_to_influx.py
-│   ├── test_auth.py
-│   └── test_influx_cloud.py
-│
-├── .gitignore
-├── LICENSE (MIT)
-└── README.md
+| Path / File | Description |
+|------------|-------------|
+| iot-realtime-weather-sensor-simulation-influxdb/ | Root project directory |
+| data/ | Data storage folder |
+| data/sample_export.csv | Sample exported CSV file |
+| requirements/ | Dependency files |
+| requirements/requirements.txt | Python dependencies |
+| screenshots/ | Project screenshots |
+| screenshots/CSV.png | CSV export preview |
+| screenshots/dashboard.png | Realtime dashboard preview |
+| screenshots/Database.png | InfluxDB database view |
+| src/ | Source code |
+| src/onemeteo_to_influx.py | Open-Meteo API to InfluxDB |
+| src/realtime_sensor_to_influx.py | Realtime sensor simulation |
+| src/test_auth.py | InfluxDB authentication test |
+| src/test_influx_cloud.py | InfluxDB connection test |
+| .gitignore | Git ignore rules |
+| LICENSE (MIT) | License file |
+| README.md | Project documentation |
+
 
 ---
 
@@ -146,10 +144,12 @@ data/sample_export.csv
 
 ## Test Scripts
 
-test_auth.py : Test InfluxDB authentication  
-test_influx_cloud.py : Test DB connection  
-onemeteo_to_influx.py : Open-Meteo to InfluxDB  
-realtime_sensor_to_influx.py : Sensor simulation
+| File Name                     | Purpose                      |
+|------------------------------|------------------------------|
+| `test_auth.py`               | Test InfluxDB authentication |
+| `test_influx_cloud.py`       | Test DB connection           |
+| `onemeteo_to_influx.py`      | Open-Meteo to InfluxDB       |
+| `realtime_sensor_to_influx.py` | Sensor simulation          |
 
 ---
 
