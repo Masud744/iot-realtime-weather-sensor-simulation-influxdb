@@ -1,4 +1,11 @@
 # IoT Realtime Weather Sensor Simulation using InfluxDB
+![GitHub stars](https://img.shields.io/github/stars/Masud744/iot-realtime-weather-sensor-simulation-influxdb?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Masud744/iot-realtime-weather-sensor-simulation-influxdb?style=social)
+![License](https://img.shields.io/github/license/Masud744/iot-realtime-weather-sensor-simulation-influxdb)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
+![InfluxDB](https://img.shields.io/badge/InfluxDB-Time%20Series-purple?logo=influxdb)
+![Open-Meteo](https://img.shields.io/badge/Open--Meteo-Weather%20API-00bcd4)
+---
 
 A complete IoT-style realtime weather monitoring system built using Python + InfluxDB Cloud, simulating real sensor data and visualizing it with auto-refresh dashboards.
 
@@ -174,3 +181,4 @@ If you like this project
 
 Give it a star on GitHub  
 Use it in your coursework or portfolio
+
