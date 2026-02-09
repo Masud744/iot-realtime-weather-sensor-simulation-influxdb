@@ -1,4 +1,4 @@
-# IoT Realtime Weather Sensor Simulation using InfluxDB
+# IoT Realtime Weather Sensor Simulation using InfluxDB & Open-Meteo
 ![GitHub stars](https://img.shields.io/github/stars/Masud744/iot-realtime-weather-sensor-simulation-influxdb?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Masud744/iot-realtime-weather-sensor-simulation-influxdb?style=social)
 ![License](https://img.shields.io/github/license/Masud744/iot-realtime-weather-sensor-simulation-influxdb)
